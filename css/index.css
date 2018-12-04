@@ -1,0 +1,435 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #333;
+}
+
+img {
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+.content {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.nav {
+  height: 70px;
+}
+.nav .logo {
+  float: left;
+}
+.nav .logo a {
+  display: block;
+  width: 290px;
+  text-indent: -9999px;
+  height: 70px;
+  background: url(../img/modules.png) no-repeat -1px -48px;
+}
+.nav .navR {
+  width: 478px;
+  float: right;
+}
+.nav .navR .inputwrap {
+  float: left;
+}
+.nav .navR .inputwrap .f-pr {
+  float: left;
+  margin-top: 15px;
+  width: 300px;
+  height: 38px;
+  background: url(../img/modules.png) no-repeat;
+}
+.nav .navR .inputwrap .f-pr input {
+  width: 240px;
+  height: 16px;
+  border: 0;
+  outline: none;
+  margin: 10px 0 0 34px;
+}
+.nav .navR .cat {
+  width: 50px;
+  height: 60px;
+  float: left;
+  margin: 0 0 0 41px;
+  position: relative;
+}
+.nav .navR .cat a {
+  display: block;
+  margin-top: 14px;
+  width: 36px;
+  height: 36px;
+  background: url(../img/modules.png) no-repeat -110px -157px;
+}
+.nav .navR .cat span {
+  position: absolute;
+  top: 8px;
+  right: 6px;
+  color: white;
+  font-size: 12px;
+  display: block;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  line-height: 18px;
+  background: url(../img/modules.png) no-repeat -156px -158px;
+}
+.nav .navR #logoText {
+  float: right;
+  width: 62px;
+  height: 70px;
+  position: relative;
+}
+.nav .navR #logoText .text {
+  margin-top: 15px;
+  width: 36px;
+  text-align: center;
+  line-height: 36px;
+  font-size: 14px;
+  color: #333;
+}
+.nav .navR #logoText #signto {
+  z-index: 3;
+  display: none;
+  width: 170px;
+  position: absolute;
+  left: -54px;
+  top: 65px;
+  background: white;
+  cursor: pointer;
+  padding-top: 5px;
+  box-shadow: 0 -2px 1px #CCC;
+}
+.nav .navR #logoText #signto li {
+  padding-left: 42px;
+  height: 38px;
+  line-height: 38px;
+}
+
+.banner {
+  z-index: 1;
+  position: relative;
+}
+.banner .main {
+  overflow: hidden;
+  height: 480px;
+  position: relative;
+}
+.banner .main ul {
+  width: 8000px;
+  position: relative;
+}
+.banner .main ul li {
+  opacity: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.banner .main ol {
+  position: absolute;
+  left: 50%;
+  margin-left: -36px;
+  bottom: 30px;
+}
+.banner .main ol li {
+  cursor: pointer;
+  float: left;
+  width: 8px;
+  height: 8px;
+  margin: 0 3px;
+  background: url(../img/dot.png) no-repeat center;
+}
+.banner .main ol .olIndex {
+  background: url(../img/dot_hover.png) no-repeat center;
+}
+.banner .arrL {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  margin-top: -33px;
+  width: 37px;
+  height: 63px;
+  background: url(../img/pointlist.png) no-repeat -3px 0;
+  background-color: #000;
+  opacity: 0.1;
+}
+.banner .arrL:hover {
+  opacity: 0.2;
+}
+.banner .arrR {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  margin-top: -33px;
+  width: 37px;
+  height: 63px;
+  background: url(../img/pointlist.png) no-repeat -46px 0px;
+  background-color: #000;
+  opacity: 0.1;
+}
+.banner .arrR:hover {
+  opacity: 0.2;
+}
+
+.tab {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.tab .hometab ul {
+  overflow: hidden;
+  position: relative;
+}
+.tab .hometab ul a {
+  float: left;
+  display: block;
+  width: 250px;
+  height: 80px;
+  padding: 0 10px;
+  margin-left: 3px;
+}
+.tab .hometab ul a li {
+  overflow: hidden;
+  line-height: 80px;
+}
+.tab .hometab ul a li img {
+  width: 48px;
+  float: left;
+  padding-top: 16px;
+  padding-left: 85px;
+}
+.tab .hometab ul a li i {
+  position: relative;
+  left: -48px;
+  top: 12px;
+  color: #d33a31;
+  font-size: 12px;
+  font-style: normal;
+}
+.tab .hometab ul a li i #jifen {
+  color: #d33a31;
+  font-size: 14px;
+  font-weight: 200;
+  font-style: normal;
+}
+.tab .hometab ul a li span {
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+  padding-left: 8px;
+}
+.tab .hometab ul a li #sp {
+  position: relative;
+  top: -8px;
+}
+.tab .hometab ul .line {
+  position: absolute;
+  display: inline-block;
+  height: 48px;
+  width: 1px;
+  margin: 16px 0 16px 0;
+  background-color: #000000;
+  filter: alpha(opacity=10);
+  -moz-opacity: 0.1;
+  opacity: 0.2;
+  cursor: default;
+}
+
+.g-db {
+  margin-top: 40px;
+  position: relative;
+}
+.g-db .g-db-main .gdbL {
+  width: 542px;
+  height: 300px;
+  float: left;
+}
+.g-db .g-db-main .gdbL img {
+  width: 100%;
+  height: 100%;
+}
+.g-db .g-db-main .gdbC {
+  float: right;
+  width: 542px;
+  height: 300px;
+}
+.g-db .g-db-main .gdbC img {
+  width: 100%;
+  height: 100%;
+}
+.g-db #gdbR {
+  overflow: hidden;
+  z-index: 5;
+  position: absolute;
+  right: 42px;
+  top: 0;
+  height: 277px;
+  width: 60px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  float: left;
+  background: white;
+}
+.g-db #gdbR div {
+  display: block;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #e5e5e5;
+  height: 58px;
+}
+.g-db #gdbR div span {
+  text-align: center;
+  display: block;
+  margin-top: 13px;
+  line-height: 1.5;
+  color: #666666;
+  font-size: 12px;
+}
+.g-db #gdbR div span.cart {
+  margin-top: 30px;
+}
+.g-db #gdbR div #Top {
+  margin-top: 0;
+  height: 38px;
+  background: url(../images/totop.png) no-repeat -71px 1px;
+}
+.g-db #gdbR div.cartpImg {
+  position: relative;
+  background: url(../images/totop_02.png) no-repeat 16px 9px;
+}
+.g-db #gdbR div.cartpImg em {
+  display: block;
+  font-style: normal;
+  font-size: 12px;
+  color: white;
+  width: 18px;
+  height: 19px;
+  line-height: 19px;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  right: 9px;
+  background: url(../images/totop_04.png) no-repeat;
+}
+.g-db #gdbR div.surImg {
+  background: url(../images/totop_08.png) no-repeat 19px 9px;
+}
+
+.m_block {
+  margin-top: 50px;
+}
+.m_block span.spanOne {
+  font-size: 24px;
+  color: #333333;
+  font-weight: bold;
+  display: block;
+}
+.m_block .m_block_box {
+  margin-top: 22px;
+  overflow: hidden;
+}
+.m_block .m_block_box .list {
+  width: 259px;
+  float: left;
+  margin-right: 16px;
+  text-align: center;
+  height: 380px;
+}
+.m_block .m_block_box .list .last_a {
+  min-height: 22px;
+  max-height: 40px;
+  overflow: hidden;
+}
+.m_block .m_block_box .list a.one {
+  display: block;
+  width: 259px;
+  height: 263px;
+  background: #f9f9f9;
+  margin-bottom: 10px;
+}
+.m_block .m_block_box .list em {
+  color: #d74d45;
+  font-size: 12px;
+  border: solid 1px #d74d45;
+  font-style: normal;
+  padding: 1px 2px;
+}
+.m_block .m_block_box .list a:hover {
+  text-decoration: underline;
+  cursor: default;
+}
+.m_block .m_block_box .list p {
+  color: #d33a31;
+  text-align: center;
+  padding-top: 4px;
+}
+
+.foot {
+  height: 120px;
+  margin-top: 85px;
+  background: #f2f2f2;
+}
+.foot .foot_con {
+  overflow: hidden;
+}
+.foot .foot_con .footR {
+  float: left;
+  font-size: 12px;
+  float: left;
+  width: 490px;
+  padding-top: 35px;
+  line-height: 24px;
+}
+.foot .foot_con .footR .footR_top a {
+  color: #999;
+}
+.foot .foot_con .footR .footR_top span {
+  margin: 0 6px;
+  color: #999;
+}
+.foot .foot_con .footR p {
+  color: #666;
+}
+.foot .foot_con .footR p a {
+  font-size: 12px;
+  color: #666;
+}
+.foot .foot_con .footR p a:hover {
+  text-decoration: underline;
+}
+.foot .foot_con .footL {
+  float: right;
+  margin-top: 15px;
+  overflow: hidden;
+}
+.foot .foot_con .footL li {
+  float: left;
+}
+.foot .foot_con .footL li a {
+  width: 60px;
+  height: 70px;
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 30px;
+  background: url(../images/foot_enter.png) no-repeat;
+}
+.foot .foot_con .footL li a.mics {
+  background-position: -60px -70px;
+}
+.foot .foot_con .footL li a.yinyue {
+  background-position: 0 -70px;
+}
+.foot .foot_con .footL li a.meiti {
+  background-position: 0 9px;
+}
+.foot .foot_con .footL li a.zan {
+  background-position: -60px 9px;
+}
+
+/*# sourceMappingURL=index.css.map */

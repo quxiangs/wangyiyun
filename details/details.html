@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/index.css" />
+		<link rel="stylesheet" type="text/css" href="detalis.css" />
+		<script src="detalis.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../jquery/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			.arrt {
+				width: 0;
+				height: 0;
+				border: 6px solid transparent;
+				border-top-color: #333;
+				border-bottom: 0;
+				position: absolute;
+				top: 30px;
+				right: 2px;
+			}
+			.arrb {
+				width: 0;
+				height: 0;
+				border: 6px solid transparent;
+				border-bottom-color: #333;
+				border-top: 0;
+				position: absolute;
+				top: 30px;
+				right: 2px;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- 导航 -->
+	<div class="heard">
+			<div class="content nav">
+				<div class="logo">
+					<a href="../index.html">网易云音乐商城</a>
+				</div>
+				<div class="navR">
+					<div class="inputwrap">
+						<form action="" method="post" class="f-pr">
+							<input type="text" placeholder="氧气耳机" />
+						</form>
+					</div>
+					<div class="cat">
+						<a href="javascript:;"></a>
+						<span class="countS">0</span>
+					</div>
+					<script>
+						$(".cat").click(function(){
+							location.href = "../cart/cart.html"
+						});
+					</script>
+					<div id="logoText">
+						<div class="text">登录</div>
+						<div id="arr" class="arrt"></div>
+						<ul id="signto">
+							<li><a href="../logo/logo.html">密码登录</a></li>
+							<li><a href="../logo/logo.html">微信登录</a></li>
+							<li><a href="../logo/logo.html">QQ登录</a></li>
+							<li><a href="../logo/logo.html">新浪微博登录</a></li>
+							<li><a class="logoff">注销</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="border"></div>
+		</div>
+	<!-- 商品介绍 -->
+	<div class="hasFootr content">
+		
+		<!-- 分享区域 -->
+		<div class="layer">
+			<span class="fenx" title="关闭窗口"></span>
+			<p class="move_p">分享</p>
+			<ul class="fen_a">
+				<li>
+					<a href="#" class="logo_a xinlang"></a>
+					<a href="#">新浪微博</a>
+				</li>
+				<li>
+					<a href="#" class="logo_a weixin"></a>
+					<a href="#">微信</a>
+				</li>
+				<li>
+					<a href="#" class="logo_a yixin"></a>
+					<a href="#">易信好友</a>
+				</li>
+				<li>
+					<a href="#" class="logo_a qzone"></a>
+					<a href="#">QQ空间</a>
+				</li>
+			</ul>
+		</div>
+		<div class="m_bread">
+			<a href="../index.html" class="shouye">首页</a>
+			<i></i>
+			<span id="pointer">
+				<!-- Beats Solo3 Wireless 头戴式耳机 无线蓝牙带麦 -->
+			</span>
+			<span class="share">分享</span>
+		</div>
+		<!-- 放大镜区域 -->
+		<div class="f-cb">
+			<!-- 大图 -->
+				<ul class="picBox">
+					<li style="display: block;"><img class="picBoxImg"/></li>
+					<!-- <li><img src="../imgpic/solo2max.jpg" class="picBoxImg"/></li> -->
+				</ul>
+				<div class="f-cb-L">
+				<!-- 小图 -->
+				<ul class="pic">
+					<li style="display: block;"><img /></li>
+					<!-- <li><img src="../imgpic/solo2min.jpg"/></li> -->
+					<!-- 笼罩层 -->
+					<div class="move"></div>
+				</ul>
+				<ul class="picmin">
+					<!-- <li><img src="../mysqimg/headset.jpg"/></li> -->
+					<!-- <li><img src="../imgpic/solo_2.jpg"/></li> -->
+					<!-- <li></li>
+					<li></li> -->
+					<!-- <li class="lastLi"></li> -->
+				</ul>
+			</div>
+			<!-- 详情区域 -->
+			<div class="f-cb-R">
+				<div class="basic">
+					<h2><!-- Beats Solo3 Wireless 头戴式耳机 无线蓝牙带麦 --></h2>
+					<p class="p_one"><!-- 【云村最福利，多色售罄，手慢无，黑色紧急补货】畅享无线聆听；充电5分钟，播放3小时； --></p>
+					<p class="p_last"><em>￥</em><span id="monry">2288</span></p>
+				</div>
+				<div class="j-nweskutn">
+					<h4>颜色:</h4>
+					<div class="colorC">
+						<!-- <p>黑色</p><p>黑色</p><p>黑色</p><p>黑色</p>
+						<p>黑色</p><p>黑色</p><p>黑色</p><p>黑色</p> -->
+					</div>
+					
+				</div>
+				<div class="count">
+					<p>数量:</p>
+					<div class="u_count">
+						<i onselectstart="return false">-</i>
+						<input type="text" name="" id="price" value="1" />
+						<span onselectstart="return false">+</span>
+					</div>
+				</div>
+				<div class="m-services">
+					<p>服务:</p>
+					<div>
+						<span>不支持7天无理由退货</span>
+						<span>商家发货</span>
+						<span>商家认证</span>
+					</div>
+				</div>
+				<p class="buys" onselectstart="return false"><a href="#">立即购买</a><a class="f-cart targetCart" onselectstart="return false">加入购物车</a></p>
+			</div>
+		</div>
+	
+		<!-- 商品详情 -->
+		<div class="n-content">
+			<div class="n-content-L">
+				<h2>商品详情</h2>
+				<div class="m-video"></div>
+				<p class="pColor">商品详情正品低价 品质保证：云音乐商城所有产品均由品牌方直供，杜绝假货。</p>
+				<p class="pColor">该产品一经拆封，非质量问题不接受7天无理由退货。</p>
+				<p>装箱清单：Beats Solo3 Wireless 耳机；便携盒；3.5 毫米 RemoteTalk 线控连接线；通用型 USB 充电线 (USB-A 至 USB Micro-B)；快速入门指南；保修卡</p>
+				<p><br/></p>
+				<img src="../detailsImg/p00.jpg" />
+				<img src="../detailsImg/p01.jpg" />
+				<img src="../detailsImg/p02.jpg" />
+				<img src="../detailsImg/p03.jpg" />
+				<img src="../detailsImg/p04.jpg" />
+				<img src="../detailsImg/p05.jpg" />
+				<img src="../detailsImg/p06.jpg" />
+				<img src="../detailsImg/p07.jpg" />
+				<img src="../detailsImg/p08.jpg" />
+				<img src="../detailsImg/p09.jpg" />
+				<img src="../detailsImg/p10.jpg" />
+				<p>商品交易成功后会在2个工作日内由上海微意电子有限公司发货，法定节假日顺延，请在确认商品完好后再签收。</p>
+				<p>若存在质量问题，请务必在7天之内联系客服：</p>
+				<p>·客服账号：私信 @云音乐客服</p>
+				<p>·温馨提示：完整的包装、配件和保修卡是电子产品进行售后的基础，请务必查看齐全后签收并妥善保管。</p>
+ 
+			</div>
+			
+			<div class="n-content-R">
+				<h2>热门商品</h2>
+				<ul>
+					<li>
+						<a href="#" class="li_a"><img src="../imgpic/shuibei.jpg"></a>
+						<div class="li_p">
+							<p><span class="spa">特价</span><a href="#"> 哆啦探索·哆啦A梦温暖玻璃杯</a></p>
+							<p class="p_num">￥<span>59</span></p>
+						</div>
+					</li>
+					<li>
+						<a href="#" class="li_a"><img src="../imgpic/shuibei.jpg"></a>
+						<div class="li_p">
+							<p><span class="spa">特价</span><a href="#"> 哆啦探索·哆啦A梦温暖玻璃杯</a></p>
+							<p class="p_num">￥<span>59</span></p>
+						</div>
+					</li>
+					<li>
+						<a href="#" class="li_a"><img src="../imgpic/shuibei.jpg"></a>
+						<div class="li_p">
+							<p><span class="spa">特价</span><a href="#"> 哆啦探索·哆啦A梦温暖玻璃杯</a></p>
+							<p class="p_num">￥<span>59</span></p>
+						</div>
+					</li>
+					<li>
+						<a href="#" class="li_a"><img src="../imgpic/shuibei.jpg"></a>
+						<div class="li_p">
+							<p><span class="spa">特价</span><a href="#"> 哆啦探索·哆啦A梦温暖玻璃杯</a></p>
+							<p class="p_num">￥<span>59</span></p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+	</div><!-- 你是谁 -->
+		<!-- 头部固定定位 -->
+		<div class="j-topbar">
+			<div class="content">
+				<div class="imgBox">
+					<img src="../imgpic/headsetBox.jpg">
+				</div>
+				<div class="topbarctn">
+					<p>Beats Solo3 Wireless 头戴式耳机 无线蓝牙带麦</p>
+					<span>¥2288</span>
+				</div>
+				<p class="buys" onselectstart="return false"><a href="#">立即购买</a><a class="f-cart targetCart" onselectstart="return false">加入购物车</a></p>
+			</div>
+		<div class="border_line"></div>
+		</div>
+		<!-- 侧固定定位 -->
+		<div id="gdbRs">
+			<div>
+				<span>100%<br>正品</span>
+			</div>
+			<div>
+				<span>七天无理由退货</span>
+			</div>
+			<a href="../cart/cart.html">
+				<div class="cartpImgs">
+					<span class="carts">购物车</span>
+					<em class ="countS">0</em>
+				</div>
+			</a>
+			<a href="#">
+				<div class="surImgs">
+					<span class="carts">客服</span>
+				</div>
+			</a>
+			<div class="TOP">
+			</div>
+		</div>
+		<!-- 底部 -->
+		<div class="foot">
+			<div class="content foot_con">
+				<div class="footR">
+					<div class="footR_top">
+						<a href="#">关于网易</a>
+						<span>|</span>
+						<a href="#">客服服务</a>
+						<span>|</span>
+						<a href="#">服务条款</a>
+						<span>|</span>
+						<a href="#">网站导航</a>
+						<span>|</span>
+						<a href="#">意见反馈</a>
+					</div>
+					<p>网易公司版权所有©1997-2018<span>杭州乐读科技有限公司运营：<a href="#">浙网文[2015] 0415-135号</a></span></p>
+				</div>
+				<ul class="footL">
+					<li><a href="#" class="mics">
+							音乐独立人
+						</a></li>
+					<li><a href="#" class="yinyue">
+							音乐专栏
+						</a></li>
+					<li><a href="#" class="meiti">
+							自媒体
+						</a></li>
+					<li><a href="#" class="zan">
+							赞赏
+						</a></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
